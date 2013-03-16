@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity" >
 
     <LinearLayout
@@ -11,36 +11,19 @@
         android:layout_height="wrap_content" >
 
         <ImageButton
+            android:id="@+id/button00"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
 
         <ImageButton
+            android:id="@+id/button01"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
 
         <ImageButton
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:onClick="buttonClicked" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <ImageButton
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:onClick="buttonClicked" />
-
-        <ImageButton
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:onClick="buttonClicked" />
-
-        <ImageButton
+            android:id="@+id/button02"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
@@ -51,16 +34,42 @@
         android:layout_height="wrap_content" >
 
         <ImageButton
+            android:id="@+id/button10"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
 
         <ImageButton
+            android:id="@+id/button11"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
 
         <ImageButton
+            android:id="@+id/button12"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="buttonClicked" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/button20"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="buttonClicked" />
+
+        <ImageButton
+            android:id="@+id/button21"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="buttonClicked" />
+
+        <ImageButton
+            android:id="@+id/button22"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:onClick="buttonClicked" />
