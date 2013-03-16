@@ -25,9 +25,36 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	public void reset(View v) {
+		playerOneTurn = true;
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				board[i][j] = 0;
+			}
+		}
+
+		((ImageButton) findViewById(R.id.button00))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button01))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button02))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button10))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button11))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button12))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button20))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button21))
+				.setImageResource(android.R.color.transparent);
+		((ImageButton) findViewById(R.id.button22))
+				.setImageResource(android.R.color.transparent);
+	}
+
 	public void buttonClicked(View v) {
 		ImageButton button = (ImageButton) v;
-
 		int num;
 		if (playerOneTurn == true) {
 			button.setImageResource(R.drawable.x);
